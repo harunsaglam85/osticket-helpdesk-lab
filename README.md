@@ -2,71 +2,97 @@
 
 
 
-\## Overview
-
-Self-hosted IT helpdesk system deployed on a Linux VPS (Ubuntu 22.04) using osTicket v1.18.1. This project demonstrates real-world helpdesk administration skills including server deployment, database configuration, ticket management, and user support workflows.
+Self-hosted IT helpdesk deployed on Ubuntu 22.04 Linux VPS using osTicket v1.18.1.
 
 
 
 \## Environment
 
-\- \*\*Server:\*\* Hetzner VPS (Ubuntu 22.04)
+| Component | Details |
 
-\- \*\*Web Server:\*\* Apache2
+|-----------|---------|
 
-\- \*\*Database:\*\* MySQL
+| Server | Hetzner VPS (Ubuntu 22.04) |
 
-\- \*\*Application:\*\* osTicket v1.18.1
+| Web Server | Apache2 |
 
-\- \*\*Access:\*\* Admin panel + User portal
+| Database | MySQL |
+
+| Application | osTicket v1.18.1 |
+
+| Live URL | http://5.78.236.153 |
 
 
 
-\## What Was Configured
+\## What Was Built
 
-\- Deployed LAMP stack (Apache, MySQL, PHP) on Linux VPS
-
-\- Downloaded and installed osTicket v1.18.1
+\- Deployed full LAMP stack on Linux VPS from scratch
 
 \- Configured MySQL database and user permissions
 
 \- Set up Apache virtual host with mod\_rewrite
 
-\- Completed web-based osTicket installer
+\- Completed osTicket web installer and post-install security hardening
 
-\- Configured helpdesk name, admin account, and email settings
-
-\- Secured installation by removing setup directory and locking config file
-
-
-
-\## Skills Demonstrated
-
-\- Linux server administration
-
-\- Apache web server configuration
-
-\- MySQL database setup and user management
-
-\- Helpdesk ticket lifecycle management (create, assign, respond, resolve)
-
-\- IT support documentation and SOP adherence
+\- Demonstrated full ticket lifecycle: submit → assign → respond → resolve
 
 
 
 \## Screenshots
 
-See the `/screenshots` folder for step-by-step documentation of the deployment and ticket workflow.
+
+
+\### Installer - Prerequisites Check
+
+!\[Prerequisites](screenshots/Screenshot%202026-06-28%20174631.png)
 
 
 
-\## Ticket Workflow Demonstrated
+\### Installation Complete
 
-1\. User submits IT support ticket via portal
+!\[Congrats](screenshots/Screenshot%202026-06-28%20174912.png)
 
-2\. Admin receives and opens ticket in queue
 
-3\. Admin responds and resolves the ticket
 
-4\. Full audit trail maintained in osTicket
+\### Admin Ticket Queue
+
+!\[Queue](screenshots/Screenshot%202026-06-28%20175031.png)
+
+
+
+\### Ticket Thread with Admin Response
+
+!\[Thread](screenshots/Screenshot%202026-06-28%20175037.png)
+
+
+
+\### Ticket Submitted Successfully
+
+!\[Submitted](screenshots/Screenshot%202026-06-28%20175220.png)
+
+
+
+\### User Portal
+
+!\[Portal](screenshots/Screenshot%202026-06-28%20175252.png)
+
+
+
+\### Ticket Detail View
+
+!\[Detail](screenshots/Screenshot%202026-06-28%20175334.png)
+
+
+
+\## Skills Demonstrated
+
+\- Linux server administration (Ubuntu 22.04)
+
+\- Apache2 web server configuration
+
+\- MySQL database setup and permissions
+
+\- IT helpdesk administration and ticket management
+
+\- SOP adherence and technical documentation
 
