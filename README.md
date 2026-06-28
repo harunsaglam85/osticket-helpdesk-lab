@@ -8,6 +8,8 @@ Self-hosted IT helpdesk deployed on Ubuntu 22.04 Linux VPS using osTicket v1.18.
 
 \## Environment
 
+
+
 | Component | Details |
 
 |-----------|---------|
@@ -26,6 +28,8 @@ Self-hosted IT helpdesk deployed on Ubuntu 22.04 Linux VPS using osTicket v1.18.
 
 \## What Was Built
 
+
+
 \- Deployed full LAMP stack on Linux VPS from scratch
 
 \- Configured MySQL database and user permissions
@@ -34,7 +38,7 @@ Self-hosted IT helpdesk deployed on Ubuntu 22.04 Linux VPS using osTicket v1.18.
 
 \- Completed osTicket web installer and post-install security hardening
 
-\- Demonstrated full ticket lifecycle: submit → assign → respond → resolve
+\- Demonstrated full ticket lifecycle: submit, assign, respond, resolve
 
 
 
@@ -42,55 +46,57 @@ Self-hosted IT helpdesk deployed on Ubuntu 22.04 Linux VPS using osTicket v1.18.
 
 
 
-\### Installer - Prerequisites Check
+\### 1. Installer Prerequisites Check
 
-!\[Prerequisites](screenshots/Screenshot%202026-06-28%20174631.png)
-
-
-
-\### Installation Complete
-
-!\[Congrats](screenshots/Screenshot%202026-06-28%20174912.png)
+!\[Prerequisites](screenshots/01-installer-prerequisites.png)
 
 
 
-\### Admin Ticket Queue
+\### 2. Installation Complete
 
-!\[Queue](screenshots/Screenshot%202026-06-28%20175031.png)
-
-
-
-\### Ticket Thread with Admin Response
-
-!\[Thread](screenshots/Screenshot%202026-06-28%20175037.png)
+!\[Installation Complete](screenshots/02-installation-complete.png)
 
 
 
-\### Ticket Submitted Successfully
+\### 3. Admin Ticket Queue
 
-!\[Submitted](screenshots/Screenshot%202026-06-28%20175220.png)
-
-
-
-\### User Portal
-
-!\[Portal](screenshots/Screenshot%202026-06-28%20175252.png)
+!\[Admin Queue](screenshots/03-admin-ticket-queue.png)
 
 
 
-\### Ticket Detail View
+\### 4. Ticket Thread with Admin Response
 
-!\[Detail](screenshots/Screenshot%202026-06-28%20175334.png)
+!\[Ticket Thread](screenshots/04-ticket-thread-response.png)
+
+
+
+\### 5. Ticket Submitted Successfully
+
+!\[Ticket Submitted](screenshots/05-ticket-submitted.png)
+
+
+
+\### 6. User Portal
+
+!\[User Portal](screenshots/06-user-portal.png)
+
+
+
+\### 7. Ticket Detail View
+
+!\[Ticket Detail](screenshots/07-ticket-detail.png)
 
 
 
 \## Skills Demonstrated
 
+
+
 \- Linux server administration (Ubuntu 22.04)
 
 \- Apache2 web server configuration
 
-\- MySQL database setup and permissions
+\- MySQL database setup and user permissions
 
 \- IT helpdesk administration and ticket management
 
